@@ -1,4 +1,4 @@
-| Feature          | Cloud Model (Groq)                         | Ollama                                 |
+| Feature          | Cloud Model (Open AI)                         | Ollama                                 |
 | ---------------- | ------------------------------------------ | -------------------------------------- |
 | Response Quality | Excellent and accurate                     | Good, but depends on the local model   |
 | Latency          | Fast (requires internet)                   | Fast after the model is loaded locally |

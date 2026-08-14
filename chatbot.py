@@ -1,8 +1,8 @@
 import os
 
 from dotenv import load_dotenv
-from langchain_groq import ChatGroq
 from langchain_ollama import ChatOllama
+from langchain_openai import ChatOpenAI
 from prompts import prompt
 load_dotenv()
 
@@ -13,8 +13,8 @@ def get_answer(question, model_type):
     print("Question :", question)
 
     if model_type == "Cloud Model":
-        print("Creating Groq Model...")
-        llm = ChatGroq(api_key=os.getenv("GROQ_API_KEY"),model="llama-3.3-70b-versatile",temperature=0)
+        print("Creating OpenAI Model...")
+        llm = ChatOpenAI(api_key=os.getenv("OPENAI_API_KEY"), model="gpt-4o-mini", temperature=0)
 
     else:
         print("Creating Ollama Model...")

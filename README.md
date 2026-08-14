@@ -2,7 +2,7 @@
 
 This project implements a Question & Answer chatbot using LangChain with two different Large Language Models:
 
-- Cloud LLM (Groq)
+- Cloud LLM (OpenAI)
 - Ollama (Local Llama 3)
 
 The application allows users to switch between a cloud-based model and a locally running open-source model through a simple Streamlit interface.
@@ -12,7 +12,7 @@ Tech Stack
 - Python
 - LangChain
 - Streamlit
-- Groq API
+- OpenAI API
 - Ollama
 - Llama 3
 - Python Dotenv
@@ -25,7 +25,7 @@ Configure Environment Variables
 
 Create a .env file.
 
-GROQ_API_KEY=your_api_key
+OPENAI_API_KEY=your_api_key
 
 Setup Ollama
 

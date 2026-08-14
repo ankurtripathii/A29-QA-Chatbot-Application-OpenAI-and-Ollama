@@ -4,7 +4,7 @@ python-dotenv
 langchain
 langchain-core
 
-langchain-groq
 langchain-ollama
+langchain_openai
 
 ollama
